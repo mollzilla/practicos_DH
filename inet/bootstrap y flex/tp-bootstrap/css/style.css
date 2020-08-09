@@ -1,0 +1,38 @@
+* {
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    font-size: 1.3em;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.title-menu, .location {
+    background-color: #2C3E50;
+}
+
+.photo-title, .about {
+    background-color: #18BC9C;
+}
+
+nav button.navbar-toggler {
+    background-color: #18BC9C;
+}
+
+.location p {
+    color: white;
+}
+
+.iconito {
+    border: 2px solid white;
+    height: 50px;
+    width: 50px;
+}
+

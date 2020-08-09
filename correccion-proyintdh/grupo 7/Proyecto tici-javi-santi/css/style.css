@@ -1,0 +1,173 @@
+
+
+a{
+  color: black;
+}
+*{
+  margin: 0 auto;
+}
+/* for movil phone */
+body{
+  background-color: #E88D67;
+}
+img.logo{
+  border-radius: 50%;
+  display: block;
+}
+.baner img{
+  display: block;
+}
+header a .fa-bars{
+  display: block;
+  width: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: white
+}
+header ul li a, footer ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white
+}
+header ul li, footer ul li{
+  list-style: none;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: grey;
+  margin-bottom: 5px;
+  background: brown;
+  color: white
+}
+header ul, footer ul{
+  padding: 0px;
+}
+article div img.photo{
+  width: 100%
+}
+section article div.photo-container{
+  position: relative;
+}
+
+img.special{
+  position:absolute;
+  top: 0px;
+  right: 10px;
+}
+a.zoom{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top:10px;
+  padding-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  top: 50%;
+  width: 100%;
+  display: block;
+  position: absolute;
+}
+a.more{
+  display: block;
+  width: 25%;
+  background-color: gray;
+  color: white;
+  text-decoration: none;
+  text-align:center;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+article{
+  margin-bottom: 10px;
+}
+h2{
+  color: white;
+}
+p{
+  color: white;
+}
+/* for tablet */
+
+@media only screen and (min-width: 800px){
+
+header a .fa-bars{
+  display: none;
+}
+
+nav ul{
+  overflow: hidden;
+
+}
+nav ul li,{
+  isplay: block;
+  float: left;
+  width: 18%;
+  margin-right: 5%;
+
+}
+/* nav ul li:last-child{
+  margin-right: 0px;
+} */
+
+section.vip-products{
+  overflow: hidden;
+}
+article{
+  float: left;
+  width: 80%;
+}
+}
+/* for PC */
+@media only screen and (min-width: 1024px){
+  header a .fa-bars{
+    display: none;
+    color: white
+  }
+  nav ul,footer ul li{
+    overflow: hidden;
+  }
+  nav ul li, footer ul li{
+    display: block;
+    float: left;
+    width: 18%;
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+  section.vip-products{
+    overflow: hidden;
+  }
+  article{
+    display: block;
+    float: right;
+    width: 40%;
+    margin-right: 7%;
+  }
+  article:last-child(even){
+      margin: 0px;
+    }
+
+    a.more{
+      display: block;
+      width: 25%;
+      background-color: gray;
+      color: white;
+      text-decoration: none;
+      text-align:center;
+      text-align: center;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      float:left;
+    }
+
+
+
+
+
+}
